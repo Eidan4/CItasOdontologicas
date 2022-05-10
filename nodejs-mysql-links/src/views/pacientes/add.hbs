@@ -1,0 +1,61 @@
+<div class="container p-4 h-100">
+  <div class="row h-75 d-flex align-items-center">
+    <div class="col-md-4 mx-auto">
+      <div class="card  ">
+        <form action="/pacientes/add" method="POST" class="card-body">
+
+          {{! Title and save button }}
+          <div class="d-flex justify-content-between align-items-center mb-3">
+            <h1 class=" mb-3 h4">Crear Historia Medica</h1>
+            <button class="btn btn-success btn-block">
+              Guardar
+            </button>
+          </div>
+        <label for="idPacientes"> Escribir Paciente</label>
+        <input 
+            type="text"
+            name="idPacientes"
+            class="form-control  mb-3"
+            placeholder="ID Paciente"
+        ></input>
+
+          <label for="hi_antecedentespersonales"> Escribir Antecedentes Personales:</label>
+          <textarea
+            name="hi_antecedentespersonales"
+            class="form-control    mb-3"
+            placeholder="Antecendes Personales"
+          ></textarea>
+
+          <label for="hi_antecedentesfamiliares"> Escribir Antecedentes Familiares:</label>
+          <textarea
+            name="hi_antecedentesfamiliares"
+            class="form-control    mb-3"
+            placeholder="Antecendes Familiares"
+          ></textarea>
+
+          <label for="hi_odontologosanteriores"> Escribir Odontologo Anterior:</label>
+          <textarea
+            name="hi_odontologosanteriores"
+            class="form-control    mb-3"
+            placeholder="Odontologo Anterior"
+          ></textarea>
+
+          <label for="hi_alergias"> Escribir Alergias:</label>
+          <textarea
+            name="hi_alergias"
+            class="form-control    mb-3"
+            placeholder="hi_alergias"
+          ></textarea>
+
+          <label for="hi_tratamientoanterior"> Escribir Antecedentes Personales:</label>
+          <textarea
+            name="hi_tratamientoanterior"
+            class="form-control    mb-3"
+            placeholder="Tratamiento Anterior"
+          ></textarea>
+        </form>
+      </div>
+    </div>
+
+  </div>
+</div>

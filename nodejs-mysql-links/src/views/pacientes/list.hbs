@@ -1,0 +1,29 @@
+<div class="container p-4">
+  <div class="row">
+    {{#each pacientes}}
+      <div class="col-md-3 p-2">
+        <div class="card text-center bg-dark text-light">
+          <div class="card-body">
+              <h3 class="card-title text-uppercase">
+                Paciente con el id: {{idPacientes}}
+              </h3>
+            <p class="m-2">{{hi_tratamientoanterior}}</p>
+            <a class="btn btn-danger" href="/pacientes/delete/{{id}}">
+              Eliminar
+            </a>
+            <a class="btn btn-secondary" href="/pacientes/edit/{{id}}">
+              Editar
+            </a>
+          </div>
+        </div>
+      </div>
+    {{else}}
+      <div class="col-md-4 mx-auto">
+        <div class="card card-body text-center bg-dark text-light">
+          <p>There are not Links saved yet.</p>
+          <a href="/pacientes/add" class="text-success">Create One!</a>
+        </div>
+      </div>
+    {{/each}}
+  </div>
+</div>

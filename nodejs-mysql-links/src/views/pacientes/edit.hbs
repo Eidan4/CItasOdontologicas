@@ -1,0 +1,58 @@
+<div class="container p-4">
+  <div class="row">
+    <div class="col-md-4 mx-auto">
+      <div class="card bg-dark border border-dark">
+        <div class="card-body">
+          <form action="/pacientes/edit/{{pacientes.id}}" method="POST">
+            <label for="idPacientes">Write a Paciente</label>
+            <label for="hi_antecedentespersonales">Write a Antecedentes Personales:</label>
+            <textarea
+                name="hi_antecedentespersonales"
+                class="form-control bg-dark text-light mb-3"
+                placeholder="Antecendes Personales"
+                autofocus       
+            >{{pacientes.hi_antecedentespersonales}}</textarea>
+
+            <label for="hi_antecedentesfamiliares">Write a Antecedentes Familiares:</label>
+            <textarea
+                name="hi_antecedentesfamiliares"
+                class="form-control bg-dark text-light mb-3"
+                placeholder="Antecendes Familiares"
+              
+
+            >{{pacientes.hi_antecedentesfamiliares}}</textarea>
+
+            <label for="hi_odontologosanteriores">Write a Antecedentes Familiares:</label>
+            <textarea
+                name="hi_odontologosanteriores"
+                class="form-control bg-dark text-light mb-3"
+                placeholder="Antecendes Familiares"
+                
+            >{{pacientes.hi_odontologosanteriores}}</textarea>
+
+            <label for="hi_alergias">Write a Alergias:</label>
+            <textarea
+                name="hi_alergias"
+                class="form-control bg-dark text-light mb-3"
+                placeholder="hi_alergias"
+                
+            >{{pacientes.hi_alergias}} </textarea>
+
+            <label for="hi_tratamientoanterior">Write a Antecedentes Personales:</label>
+            <textarea
+                name="hi_tratamientoanterior"
+                class="form-control bg-dark text-light mb-3"
+                placeholder="Tratamiento Anterior"
+                
+            >{{pacientes.hi_tratamientoanterior}} </textarea>
+            <div class="form-group">
+              <button class="btn btn-success btn-block">
+                Save
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

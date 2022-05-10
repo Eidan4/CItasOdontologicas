@@ -1,0 +1,80 @@
+.formulario-registrar{
+    width: 500px;
+    height: 1050px;
+    background: white;
+    margin: auto;
+    margin-top: 50px;
+    border-color: #0b458a;
+    border-style: solid;
+    border-width: 1px;
+    font-family: 'Anonymous Pro Bold Italic', arial;
+}
+
+.titulo-registrarse{
+    width: 100%;
+    background: #0b458a;
+}
+
+.text-registrarse{
+    color: white;
+    margin: 0px;
+    text-align: center;
+    padding: 10px;
+}
+
+.palabras-titulo{
+    margin-left: 20px;
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    display: block;
+}
+
+.input-registrar{
+    margin-left: 20px;
+    width: 75%;
+    height: 25px;
+    font-size: 20px;
+}
+
+.flex{
+    display: flex;
+}
+
+.flexselect{
+    display: flex;
+}
+
+.select{
+    margin-left: 204px;
+}
+
+.rh{
+    margin-left: 250px;
+}
+
+.genero{
+    margin-left: 20px;
+}
+
+.input-fecha{
+    margin-left: 20px;
+}
+
+.boton-registro{
+    width: 195px;
+    height: 36px;
+    font-size: 26px;
+    margin-top: 40px;
+    margin-left: 140px;
+    background:#0b458a ;
+    color: white;
+    border-style: none;
+}
+
+.identidad{
+    width: 20%;
+}
+
+
+

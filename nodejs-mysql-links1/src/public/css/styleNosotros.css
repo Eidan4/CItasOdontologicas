@@ -1,0 +1,42 @@
+
+.sedeprincipal{
+    border: 3px solid black;
+    margin: 20px;
+}
+.sedeprincipaltxt{
+    float: right;
+    text-align: right;
+    margin: 10px 600px 0px 0px;
+}
+.sededelnorte{
+    border: 3px solid black;
+    margin: 20px;
+}
+.sededelnortetxt{
+    float: right;
+    text-align: right;
+    margin: 10px 570px 0px 0px;
+}
+.sedevillaluz{
+    border: 3px solid black;
+    margin: 20px;
+}
+.sedevillatxt{
+    float: right;
+    text-align: right;
+    margin: 10px 570px 0px 0px;
+}
+.nosotros{
+    text-align: center;
+    margin-top: 20px;
+    
+}
+.nosotrosimg{
+    border: 5px solid black;
+    margin: 4%;
+    background: #55cabe; 
+}
+.texto-nosotros{
+    margin-top: 5px;
+    margin-bottom: 10px;
+}

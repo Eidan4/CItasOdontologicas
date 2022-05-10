@@ -1,0 +1,81 @@
+<div class="container p-4">
+  <div class="row">
+    <div class="col-md-4 mx-auto">
+      <div class="card   border border-dark">
+        <div class="card-body">
+          <form action="/links/edit/{{link.id}}" method="POST">
+          <h1 class="  mb-3 h4">Editar Citar</h1>
+            <div class="form-group">
+               <label for="idOdontologo">Seleccionar Doctor:</label>
+                <input
+                  type="number"
+                  name="idOdontologo"
+                  class="form-control mb-3"
+                  placeholder="Doctor"
+                  value="{{link.idOdontologo}}"
+                  autofocus
+                />
+
+                <label for="idTratamiento">Seleccionar Primer Tratamiento:</label>
+                <input
+                  type="number"
+                  name="idTratamiento"
+                  class="form-control     mb-3"
+                  placeholder="Primer Tratamiento"
+                  value="{{link.idTratamiento}}"
+                />
+
+                <label for="idTratamiento2">Seleccionar Segundo Tratamiento:</label>
+                <input
+                  type="number"
+                  name="idTratamiento2"
+                  class="form-control     mb-3"
+                  placeholder="Segundo Tratamiento"
+                  value="{{link.idTratamiento2}}"
+                />
+                
+                <label for="ci_fechacita">Fecha Cita:</label>
+                <input
+                  type="date"
+                  name="ci_fechacita"
+                  class="form-control     mb-3"
+                  placeholder="Fecha de la Cita"
+                  value="{{link.ci_fechacita}}"
+                />
+
+                <label for="ci_horainicio">Hora de Inicio:</label>
+                <input
+                  type="time"
+                  name="ci_horainicio"
+                  class="form-control     mb-3"
+                  placeholder="Hora de Inicio"
+                  value="{{link.ci_horainicio}}"
+                />
+
+                <label for="ci_horafinal">Hora de Finalizacion:</label>
+                <input
+                  type="time"
+                  name="ci_horafinal"
+                  class="form-control     mb-3"
+                  placeholder="Hora de Finalizacion"
+                  value="{{link.ci_horafinal}}"
+                />
+      
+                <label for="ci_motivoconsulta">Motivo de la Consulta:</label>
+                <textarea
+                  name="ci_motivoconsulta"
+                  class="form-control     mb-3"
+                  placeholder="Motivo de la Consulta"
+                >{{link.ci_motivoconsulta}}</textarea>
+            </div>
+            <div class="form-group">
+              <button class="btn btn-success btn-block centersingin">
+                Save
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,73 @@
+<div class="container p-4 h-100">
+  <div class="row h-75 d-flex align-items-center">
+    <div class="col-md-4 mx-auto">
+      <div class="card  ">
+        <form action="/links/add" method="POST" class="card-body">
+
+          <div class="d-flex justify-content-between align-items-center mb-3">
+            <h1 class="  mb-3 h4">Crear Cita</h1>
+            <button class="btn btn-success btn-block">
+              Save
+            </button>
+          </div>
+          <label for="idOdontologo">Seleccionar Doctor:</label>
+          <input
+            type="number"
+            name="idOdontologo"
+            class="form-control   mb-3"
+            placeholder="Doctor"
+            autofocus
+          />
+
+          <label for="idTratamiento">Seleccionar Primer Tratamiento:</label>
+          <input
+            type="number"
+            name="idTratamiento"
+            class="form-control   mb-3"
+            placeholder="Primer Tratamiento"
+          />
+
+          <label for="idTratamiento2">Seleccionar Segundo Tratamiento:</label>
+          <input
+            type="number"
+            name="idTratamiento2"
+            class="form-control   mb-3"
+            placeholder="Segundo Tratamiento"
+          />
+          
+          <label for="ci_fechacita">Fecha Cita:</label>
+          <input
+            type="date"
+            name="ci_fechacita"
+            class="form-control   mb-3"
+            placeholder="Fecha de la Cita"
+          />
+
+          <label for="ci_horainicio">Hora de Inicio:</label>
+          <input
+            type="time"
+            name="ci_horainicio"
+            class="form-control   mb-3"
+            placeholder="Hora de Inicio"
+          />
+
+          <label for="ci_horafinal">Hora de Finalizacion:</label>
+          <input
+            type="time"
+            name="ci_horafinal"
+            class="form-control   mb-3"
+            placeholder="Hora de Finalizacion"
+          />
+ 
+          <label for="ci_motivoconsulta">Motivo de la Consulta:</label>
+          <textarea
+            name="ci_motivoconsulta"
+            class="form-control   mb-3"
+            placeholder="Motivo de la Consulta"
+          ></textarea>
+        </form>
+      </div>
+    </div>
+
+  </div>
+</div>

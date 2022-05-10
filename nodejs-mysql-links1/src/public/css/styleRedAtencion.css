@@ -1,0 +1,28 @@
+.sede{
+    border: 1px solid black;
+    width: 96%;
+    height: 180px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.imagen-sede{
+    height:100%;  
+}
+
+.texto-sede{
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+.grande{
+    font-size: 40px;
+}
+
+.pequeño{
+    font-size: 25px;
+    margin-left:90px;
+}

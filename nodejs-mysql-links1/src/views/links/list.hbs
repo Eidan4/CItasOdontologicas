@@ -1,0 +1,30 @@
+<div class="container p-4">
+  <div class="row">
+    {{#each links}}
+      <div class="col-md-3 p-2">
+        <div class="card text-center bg-dark text-light">
+          <div class="card-body">
+            <h3 class="card-title text-uppercase">
+              {{ci_motivoconsulta}}
+            </h3>
+            <p class="m-2">{{ci_horainicio}} a {{ci_horafinal}} <p>
+          
+            <a class="btn btn-danger" href="/links/delete/{{id}}">
+              Eliminar Cita
+            </a>
+            <a class="btn btn-secondary" href="/links/edit/{{id}}">
+              Editar Cita
+            </a>
+          </div>
+        </div>
+      </div>
+    {{else}}
+      <div class="col-md-4 mx-auto">
+        <div class="card card-body text-center bg-dark text-light">
+          <p>Todavia no tienes citas programadas.</p>
+          <a href="/links/add" class="text-success">Create Cita</a>
+        </div>
+      </div>
+    {{/each}}
+  </div>
+</div>

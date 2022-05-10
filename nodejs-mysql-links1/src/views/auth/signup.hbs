@@ -1,0 +1,130 @@
+<div class="container p-4">
+  <div class="row">
+    <div class="col-md-4 mx-auto">
+      <form class="card" action="/signup" method="POST">
+        <div class="card-header titulo-iniciarsesion">
+          <h3 class="text-center">SignUp</h3>
+        </div>
+        <div class="card-body">
+          <label for="pa_nombre">Escribe tu Nombre:</label>
+          <input
+            type="type"
+            name="pa_nombre"
+            placeholder="Nombre"
+            class="form-control mb-3"
+            autofocus
+          />
+          <label for="pa_apellido">Escribe tu Apellido:</label>
+          <input
+            type="text"
+            name="pa_apellido"
+            placeholder="Apellido"
+            class="form-control mb-3"
+          />
+          <label for="idestadocivil">Escribe tu Estado Civil:</label>
+          <input
+            type="number"
+            name="idestadocivil"
+            placeholder="Estado Civil"
+            class="form-control mb-3"
+          />
+          <label for="idgenero">Escribe tu Genero:</label>
+          <input
+            type="number"
+            name="idgenero"
+            placeholder="Genero"
+            class="form-control mb-3"
+          />
+          <label for="idtipoidentidad">Escribe tu Tipo de identidad:</label>
+          <input
+            type="number"
+            name="idtipoidentidad"
+            placeholder="Tipo de identidad"
+            class="form-control mb-3"
+          />
+          <label for="idrh">Escribe tu Tipo de RH:</label>
+          <input
+            type="number"
+            name="idrh"
+            placeholder="RH"
+            class="form-control mb-3"
+          />
+          <label for="pa_direccion">Escribe tu Direccion:</label>
+          <input
+            type="text"
+            name="pa_direccion"
+            placeholder="Direccion"
+            class="form-control mb-3"
+          />
+          <label for="pa_ciudad">Escribe tu Ciudad:</label>
+          <input
+            type="text"
+            name="pa_ciudad"
+            placeholder="Ciudad"
+            class="form-control mb-3"
+          />
+          <label for="pa_paisorigen">Escribe tu Pais de origen:</label>
+          <input
+            type="text"
+            name="pa_paisorigen"
+            placeholder="Pais de origen"
+            class="form-control mb-3"
+          />
+          <label for="pa_telefonocelular">Escribe tu Telefono Celular:</label>
+          <input
+            type="text"
+            name="pa_telefonocelular"
+            placeholder="Telefono celular"
+            class="form-control mb-3"
+          />
+          <label for="pa_telefonooficiona">Escribe tu Telefono Oficina:</label>
+          <input
+            type="text"
+            name="pa_telefonooficiona"
+            placeholder="Telefono Oficina"
+            class="form-control mb-3"
+          />
+          <label for="username">Escribe tu Numero de identidad:</label>
+          <input
+            type="text"
+            name="username"
+            placeholder="Numero de identidad"
+            class="form-control mb-3"
+          />
+          <label for="pa_fechanacimiento">Escribe tu Fecha de Nacimiento:</label>
+          <input
+            type="date"
+            name="pa_fechanacimiento"
+            placeholder="Fecha de Nacimiento"
+            class="form-control mb-3"
+          />
+          <label for="pa_fechanacimiento">Escribe tu Correo:</label>
+          <input
+            type="email"
+            name="pa_correo"
+            placeholder="Correo electronico"
+            class="form-control mb-3"
+          />
+          <label for="password">Escribe tu contraseña:</label>
+          <input
+            type="password"
+            name="password"
+            placeholder="Password"
+            class="form-control mb-3"
+          />
+          <button class="btn btn-success btn-block center">
+            Register
+          </button>
+        </div>
+      </form>
+
+      {{! Link }}
+      <p class="fs-5 text-center mt-3">Ya tienes una cuenta?
+        <a href="/signin">Signin</a>
+      </p>
+      <p class="fs-5 text-center mt-3">Apartado de Odontologo
+        <a href="http://localhost:4200/">Odontologos</a>
+      </p>
+    </div>
+  </div>
+</div>
